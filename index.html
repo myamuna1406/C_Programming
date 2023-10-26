@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamuna M</title>
+
+    <!---------------------------------------------------------CSS-FILE-------------------------------------------------------------------------->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!---------------------------------------------------------HEADER-------------------------------------------------------------------------->
+
+    <header class="header" data-header>
+        <div class="container">
+            <h2><a href="#" class="logo">
+                    <div class="exp-text">
+                        <p><span class="logo-name">Y</span><span class="exp-logo-name">Yamuna</span></p>
+                    </div>
+                </a></h2>
+            <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+
+                <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+                <ion-icon name="close-outline" class="close-icon"><i class="fa-solid fa-xmark"></i></ion-icon>
+            </button>
+
+            <nav class="navbar container">
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#profiles" class="navbar-link" data-nav-link>Profiles</a>
+                    </li>
+
+
+                  
+
+                    <li>
+                        <a href="cv.html" class="cv-button">Download CV</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!---------------------------------------------------------YAMUNA-PROFILE-------------------------------------------------------------------------->
+
+    <section class="yam" id="home">
+        <div class="container">
+
+            <div class="yam-banner">
+
+                <img src="profile.gif" class="img-cover">
+
+                <div class="pro pro-1">
+                    <img src="html.png">
+                </div>
+
+                <div class="pro pro-2">
+                    <img src="css3.png">
+                </div>
+
+                <div class="pro pro-3">
+                    <img src="javascript.png">
+                </div>
+                <div class="pro pro-4">
+                    <img src="Python.png">
+                </div>
+
+            </div>
+
+            <div class="yam-content">
+
+                <h3>Hello, i'm</h3>
+                <h1 class="yam-title">Yamuna M</h1>
+
+                <p class="yam-text">
+                    Electrical & Electronics Engineering
+                </p>
+
+                <div class="btn-group">
+                    <button onclick="downloadFile()" target="_blank" class="resume-button">RESUME</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!---------------------------------------------------------ABOUT-------------------------------------------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="about-subtitle">A creative and innovative Entry-level Architect, passionate about building
+                        designs
+                        and advanced construction solutions</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Internship')">Projects</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>SSC-2018</span><br>JR.Cambridgge ICSE</li>
+                            <li><span>HSC-2022</span><br>Royal Park Matriculation Hr.sec </li>
+                            <li><span>EEE-2024</span><br>Sona College Of Technology</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Internship">
+                        <ul>
+                            <li><span>2022</li>
+                                <li><a>-> Weather Monitoring Using IOT </a></li>
+                                <li><a href="https://myamuna1406.github.io/portfolio/">-> Personal Portfolio  Using HTML5 & CSS3</a> </li>
+                            <li><span>2023</span></li>
+                                <li><a>-> PLCC Based Home Automation System</a></li>
+                                <li><a href="http://myamuna1406.github.io/tempconverter">-> Temperature Converter Using HTML5, CSS3 & JS</a></li>
+                                <li><a>-> Power Fluctuation Indicator (Ongoing)</a> </li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------------------------SKILLS-------------------------------------------------------------------------->
+
+    <section class="section skills" id="skills">
+        <div class="container">
+
+            <h1 class="h2 head-title">My Skills</h1>
+            <p class="section-subtitle">I create successful responsive websites that are fast, easy to use, and built
+                with
+                best practices which is Developed by hours and hours of work </p>
+
+            <ul class="skills-list">
+
+                <li class="skills-item">
+                    <div class="wrapper" style="width: 70%">
+                        <h3 class=" skills-title">HTML</h3>
+
+                        <data class="skills-data" value="70">70%</data>
+                    </div>
+
+                    <div class="skills-progress-box">
+                        <div class="skills-progress" style="width: 70%"></div>
+                    </div>
+                </li>
+
+                <li class="skills-item">
+                    <div class="wrapper" style="width: 50%">
+                        <h3 class="skills-title">CSS</h3>
+
+                        <data class="skills-data" value="50">50%</data>
+                    </div>
+
+                    <div class="skills-progress-box">
+                        <div class="skills-progress" style="width: 50%"></div>
+                    </div>
+                </li>
+
+                
+                <li class="skills-item">
+                    <div class="wrapper" style="width: 42%">
+                        <h3 class="skills-title">3Dx</h3>
+
+                        <data class="skills-data" value="42">42%</data>
+                    </div>
+
+                    <div class="skills-progress-box">
+                        <div class="skills-progress" style="width: 42%"></div>
+                    </div>
+                </li>
+                
+
+                <li class="skills-item">
+                    <div class="wrapper" style="width: 45%">
+                        <h3 class="skills-title">Java</h3>
+
+                        <data class="skills-data" value="45">45%</data>
+                    </div>
+
+                    <div class="skills-progress-box">
+                        <div class="skills-progress" style="width: 45%"></div>
+                    </div>
+                </li>
+
+                
+
+                
+
+            </ul>
+
+        </div>
+    </section>
+<!---Code Profiles-->
+
+
+   <div class="container">
+        <div class="heading">
+            <h1 class="h2 head-title">My PROFILES</h1>
+            <p class="section-subtitle">I create successful responsive websites that are fast, easy to use, and built
+                with
+                best practices which is Developed by hours and hours of work </p>
+        </div>
+        <div class="images-row">
+            <div class="image-container">
+                <a href="https://www.codechef.com/users/myamuna1406">
+                    <img class="image" src="codechef.png" alt="Image 1">
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="https://www.codingninjas.com/studio/profile/myamuna1406">
+                    <img class="image" src="codingninjas.jpg" alt="Image 2">
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="https://leetcode.com/myamuna1463/">
+                    <img class="image" src="leetcode.png" alt="Image 3">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+
+
+
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------------------------------Contact----------------->
+    <footer class="footer">
+        <div class="container">
+
+            <p class="copyright">&copy; 2023 <a href="#" class="copyright-link"> Yamuna M</a>. All Rights Reseverd</p>
+            <ul class="footer-list">
+                <li><a target="_blank" href="#" class="footer-link">Terms & Condition</a></li>
+                <li><a target="_blank" href="#" class="footer-ico">Privacy Policy</a></li>
+
+                <li><a target="_blank" href="https://www.instagram.com/myamuna1406/" id="ico-connect"><img src="contact1.png"></a></li>
+                            
+                <li><a target="_blank" href = "mailto: yamuna.20eee@sonatech.ac.in" id="ico-connect"><img
+                            src="contact3.png"></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/yamuna-m-a8760b250" id="ico-connect"><img
+                            src="contact4.png"></a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+
+
+
+<!--*******************************************************JS*************************************************************************-->
+
+<script>
+    'use strict';
+
+    /*******************************************************NavBar-Button*************************************************************************/
+
+    const header = document.querySelector("[data-header]");
+    const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+
+    navToggleBtn.addEventListener("click", function () {
+        header.classList.toggle("nav-active");
+        this.classList.toggle("active");
+    });
+
+    const navbarLinks = document.querySelectorAll("[data-nav-link]");
+
+    for (let i = 0; i < navbarLinks.length; i++) {
+        navbarLinks[i].addEventListener("click", function () {
+            header.classList.toggle("nav-active");
+            navToggleBtn.classList.toggle("active");
+        });
+    }
+</script>
+
+<!--*******************************************************Font-icons*************************************************************************-->
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!--*******************************************************About-Changeover*************************************************************************-->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+
+    function downloadFile() {
+
+        window.location.href = "RESUME.jpg";
+
+    }
+
+</script>
+<script>
+    function myalert(){
+        alert("Try Sometime Later!!...")
+    }
+</script>
+
+
+
+</body>
+
+</html>
+
